@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
+import { DiYii } from "react-icons/di";
 import { FaXTwitter } from 'react-icons/fa6'
 function Navbar() {
 
   return (
-    <div className='mb-2 flex items-center justify-between py-6'>
+    <div className='flex items-center justify-between py-3'>
 <div>
-<h1 className='text-3xl'>Lakhan Shanker</h1>
-<h1 className='text-lg'>Frontend Developer, Western Unoin</h1>
+<DiYii size={36}/>
 </div>
 <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
 <FaLinkedin onClick={()=>window.open('https://www.linkedin.com/in/lakhan-shanker-79a8a0190/')}/>
